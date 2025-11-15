@@ -1,0 +1,24 @@
+/* Navbar */
+.nav{
+  position:fixed;top:0;left:0;right:0;
+  height:70px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 2rem;
+  background:rgba(0,0,0,0.7);
+  backdrop-filter:blur(6px);
+  z-index:100;
+}
+.logo{font-size:1.8rem;font-weight:900;color:#e50914;letter-spacing:3px;}
+.nav__right{display:flex;align-items:center;gap:1rem;}
+.btn{
+  padding:.5rem 1rem;
+  background:transparent;
+  border:1px solid #666;
+  border-radius:6px;
+  color:#fff;
+  cursor:pointer;
+  transition:.3s;
+}
+.btn:hover{background:#e50914;}
