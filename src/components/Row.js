@@ -1,6 +1,6 @@
 import React from 'react';
 import MovieCard from './MovieCard';
-import './Row.css';
+import '../row.css';
 
 export default function Row({ title, movies = [] }) {
   return (
